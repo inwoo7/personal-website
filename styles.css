@@ -366,21 +366,6 @@ a:hover {
     font-weight: bold;
 }
 
-.film-section .text .table1 {
-    display: flex;              /* Enables Flexbox for child elements */
-    justify-content: space-between; /* Distributes space between the divs */
-    width: 100%;
-    align-items: center;        /* Aligns items vertically */
-    gap: 60px;                  /* Adds spacing between the divs (optional) */
-}
-.film-section .text .table2 {
-    display: flex;              /* Enables Flexbox for child elements */
-    justify-content: space-between; /* Distributes space between the divs */
-    width: 100%;
-    align-items: center;        /* Aligns items vertically */
-    gap: 60px;                  /* Adds spacing between the divs (optional) */
-}
-
 .film-section .text .water-div {
     margin-top: 15px;
 }
