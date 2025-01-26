@@ -24,6 +24,10 @@ a {
     color:#000000
 }
 
+#feature-links a {
+    color:#000000
+}
+
 .main-container {
     display: flex;              /* Enables Flexbox */
     justify-content: center;    /* Horizontally centers content */
@@ -150,6 +154,7 @@ a:hover {
 .essay-section .text .title p {
     margin-bottom: 15px;
     font-weight: bold;
+    font-size: 16px;
 }
 
 .essay-section .text .startup-learnings-div p {
@@ -298,7 +303,34 @@ a:hover {
     margin-left: 15px;
 }
 
-/* SECTION 7: SIDE PROJECTS */
+/* SECTION 7: FEATURES */
+.features-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 40px;
+    max-width: 600px;
+}
+
+.features-section .text .title {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.features-section .text .chn-div p {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 15px;
+}
+.features-section .text .chn-div p1 {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #868686;
+    margin-left: 15px;
+}
+
+/* SECTION 8: SIDE PROJECTS */
 .projects-section {
     display: flex;
     justify-content: space-between;
@@ -355,7 +387,7 @@ a:hover {
     color: #868686;
 }
 
-/* SECTION 8: FILM PROJECTS */
+/* SECTION 9: FILM PROJECTS */
 .film-section {
     display: flex;
     justify-content: space-between;
@@ -446,7 +478,7 @@ a:hover {
     border-radius: 5px;
 }
 
-/* SECTION 9: READING LOG */
+/* SECTION 10: READING LOG */
 .reading-section {
     display: flex;
     justify-content: space-between;
