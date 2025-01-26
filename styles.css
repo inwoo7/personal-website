@@ -20,11 +20,16 @@ a {
     text-decoration: none;
 }
 
+#essay-links a {
+    color:#000000
+}
+
 .main-container {
     display: flex;              /* Enables Flexbox */
     justify-content: center;    /* Horizontally centers content */
     text-align: left;           /* Ensures text inside is left-aligned */
     min-height: 100vh;          /* Makes container fill the full viewport height */
+    padding: 20px;
 }
 
 .content-wrapper {
@@ -516,4 +521,13 @@ a:hover {
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
+}
+
+.essay-section .text p{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+html {
+    scroll-behavior: smooth;
 }
