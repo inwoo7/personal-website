@@ -403,6 +403,25 @@ a:hover {
     font-weight: bold;
 }
 
+.film-section .text .teen-troubles-div {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.film-section .text .teen-troubles-div p {
+    font-size: 14px;
+    font-weight: lighter;
+}
+.film-section .text .teen-troubles-div p1 {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #868686;
+}
+.film-section .text .teen-troubles-div img {
+    width: 150px;
+    border-radius: 5px;
+}
+
 .film-section .text .water-div {
     margin-top: 15px;
     margin-left: 15px;
