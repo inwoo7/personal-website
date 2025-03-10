@@ -513,6 +513,18 @@ a:hover {
     font-weight: bold;
 }
 
+.reading-section .text .CM-div p {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 15px;
+}
+.reading-section .text .CM-div p1 {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #868686;
+    margin-left: 15px;
+}
+
 .reading-section .text .TLOHN-div p {
     font-size: 14px;
     font-weight: lighter;
