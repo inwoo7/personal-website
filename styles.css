@@ -614,7 +614,7 @@ html {
 
 }
 
-.other-links-section .text .links p {
+.other-links-section .text .links a {
     color: #000000;
     font-size: 14px;
     font-weight: lighter;
