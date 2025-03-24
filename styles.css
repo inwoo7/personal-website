@@ -596,3 +596,28 @@ a:hover {
 html {
     scroll-behavior: smooth;
 }
+
+
+.other-links {
+    margin-top: 1.5rem;
+    margin-left: 15px;
+}
+
+.other-links p {
+    color: #000000;
+    font-weight: bold;
+}
+
+.other-links p1 {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.other-links a {
+    color: #868686;
+    transition: color 0.3s ease;
+}
+
+.other-links a:hover {
+    color: #2F4858;
+}
