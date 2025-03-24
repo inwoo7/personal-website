@@ -598,7 +598,7 @@ html {
 }
 
 
-.other-links {
+.other-links-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -607,14 +607,14 @@ html {
     max-width: 600px;
 }
 
-.other-links .text .title {
+.other-links-section .text .title p {
     margin-bottom: 15px;
     font-weight: bold;
 }
 
 }
 
-.other-links p {
+.other-links-section .text .links p1 {
     color: #000000;
     font-size: 14px;
     font-weight: lighter;
@@ -622,12 +622,6 @@ html {
     margin-top: 15px;
 }
 
-.other-links p1 {
-    font-size: 14px;
-    font-weight: lighter;
-    margin-top: 15px;
-}
-
-.other-links a:hover {
+.other-links-section .text .links a:hover {
     color: #2F4858;
 }
