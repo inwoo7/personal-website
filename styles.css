@@ -599,23 +599,33 @@ html {
 
 
 .other-links {
-    margin-top: 1.5rem;
-    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 40px;
+    max-width: 600px;
+}
+
+.other-links .text .title {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
 }
 
 .other-links p {
     color: #000000;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 15px;
+    margin-top: 15px;
 }
 
 .other-links p1 {
     font-size: 14px;
     font-weight: lighter;
-}
-
-.other-links a {
-    color: #868686;
-    transition: color 0.3s ease;
+    margin-top: 15px;
 }
 
 .other-links a:hover {
