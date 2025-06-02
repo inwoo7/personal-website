@@ -429,16 +429,19 @@ a:hover {
 .projects-section .text .antibiotics-div p {
     font-size: 14px;
     font-weight: lighter;
+    margin-left: 15px;
 }
 .projects-section .text .antibiotics-div p1 {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
+    margin-left: 15px;
 }
 .projects-section .text .antibiotics-div p2 {
     font-size: 13px;
     font-weight: lighter;
     color: #868686;
+    margin-left: 0;
     margin-top: 8px;
     font-style: italic;
     display: block;
@@ -452,16 +455,19 @@ a:hover {
 .projects-section .text .shell-div p {
     font-size: 14px;
     font-weight: lighter;
+    margin-left: 15px;
 }
 .projects-section .text .shell-div p1 {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
+    margin-left: 15px;
 }
 .projects-section .text .shell-div p2 {
     font-size: 13px;
     font-weight: lighter;
     color: #868686;
+    margin-left: 0;
     margin-top: 8px;
     font-style: italic;
     display: block;
@@ -473,16 +479,19 @@ a:hover {
 .projects-section .text .marathon-div p {
     font-size: 14px;
     font-weight: lighter;
+    margin-left: 15px;
 }
 .projects-section .text .marathon-div p1 {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
+    margin-left: 15px;
 }
 .projects-section .text .marathon-div p2 {
     font-size: 13px;
     font-weight: lighter;
     color: #868686;
+    margin-left: 0;
     margin-top: 8px;
     font-style: italic;
     display: block;
