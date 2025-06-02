@@ -198,6 +198,27 @@ a:hover {
     font-weight: bold;
 }
 
+.work-section .text .maatrx-div p {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 15px;
+}
+.work-section .text .maatrx-div p1 {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #868686;
+    margin-left: 15px;
+}
+.work-section .text .maatrx-div p2 {
+    font-size: 13px;
+    font-weight: lighter;
+    color: #868686;
+    margin-left: 15px;
+    margin-top: 8px;
+    font-style: italic;
+    display: block;
+}
+
 .work-section .text .rx-assist-div p {
     font-size: 14px;
     font-weight: lighter;
@@ -210,17 +231,36 @@ a:hover {
     color: #868686;
     margin-left: 15px;
 }
+.work-section .text .rx-assist-div p2 {
+    font-size: 13px;
+    font-weight: lighter;
+    color: #868686;
+    margin-left: 15px;
+    margin-top: 8px;
+    font-style: italic;
+    display: block;
+}
 
 .work-section .text .medme-div p {
     font-size: 14px;
     font-weight: lighter;
     margin-left: 15px;
+    margin-top: 15px;
 }
 .work-section .text .medme-div p1 {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
+}
+.work-section .text .medme-div p2 {
+    font-size: 13px;
+    font-weight: lighter;
+    color: #868686;
+    margin-left: 15px;
+    margin-top: 8px;
+    font-style: italic;
+    display: block;
 }
 
 .work-section .text .med-tech-div p {
@@ -235,6 +275,15 @@ a:hover {
     color: #868686;
     margin-left: 15px;
 }
+.work-section .text .med-tech-div p2 {
+    font-size: 13px;
+    font-weight: lighter;
+    color: #868686;
+    margin-left: 15px;
+    margin-top: 8px;
+    font-style: italic;
+    display: block;
+}
 
 .work-section .text .novartis-div p {
     font-size: 14px;
@@ -247,6 +296,15 @@ a:hover {
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
+}
+.work-section .text .novartis-div p2 {
+    font-size: 13px;
+    font-weight: lighter;
+    color: #868686;
+    margin-left: 15px;
+    margin-top: 8px;
+    font-style: italic;
+    display: block;
 }
 
 .work-section .text .refoundation-div p {
@@ -261,6 +319,15 @@ a:hover {
     color: #868686;
     margin-left: 15px;
 }
+.work-section .text .refoundation-div p2 {
+    font-size: 13px;
+    font-weight: lighter;
+    color: #868686;
+    margin-left: 15px;
+    margin-top: 8px;
+    font-style: italic;
+    display: block;
+}
 
 .work-section .text .sdm-div p {
     font-size: 14px;
@@ -273,6 +340,15 @@ a:hover {
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
+}
+.work-section .text .sdm-div p2 {
+    font-size: 13px;
+    font-weight: lighter;
+    color: #868686;
+    margin-left: 15px;
+    margin-top: 8px;
+    font-style: italic;
+    display: block;
 }
 
 
@@ -359,6 +435,14 @@ a:hover {
     font-weight: lighter;
     color: #868686;
 }
+.projects-section .text .antibiotics-div p2 {
+    font-size: 13px;
+    font-weight: lighter;
+    color: #868686;
+    margin-top: 8px;
+    font-style: italic;
+    display: block;
+}
 
 .projects-section .text .shell-div {
     margin-left: 15px;
@@ -374,6 +458,14 @@ a:hover {
     font-weight: lighter;
     color: #868686;
 }
+.projects-section .text .shell-div p2 {
+    font-size: 13px;
+    font-weight: lighter;
+    color: #868686;
+    margin-top: 8px;
+    font-style: italic;
+    display: block;
+}
 .projects-section .text .marathon-div {
     margin-left: 15px;
 }
@@ -386,6 +478,14 @@ a:hover {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
+}
+.projects-section .text .marathon-div p2 {
+    font-size: 13px;
+    font-weight: lighter;
+    color: #868686;
+    margin-top: 8px;
+    font-style: italic;
+    display: block;
 }
 
 /* SECTION 9: FILM PROJECTS */
@@ -612,17 +712,57 @@ html {
     font-weight: bold;
 }
 
-}
-
 .other-links-section .text .links a {
     color: #000000;
     font-size: 14px;
     font-weight: lighter;
-    margin-left: 30px;
+    margin-left: 15px;
     margin-top: 15px;
     font-weight: lighter;
 }
 
 .other-links-section .text .links a:hover {
     color: #2F4858;
+}
+
+
+.work-section .text .maatrx-div p2,
+.work-section .text .rx-assist-div p2,
+.work-section .text .medme-div p2,
+.work-section .text .med-tech-div p2,
+.work-section .text .novartis-div p2,
+.work-section .text .refoundation-div p2,
+.work-section .text .sdm-div p2,
+.projects-section .text .antibiotics-div p2,
+.projects-section .text .shell-div p2,
+.projects-section .text .marathon-div p2 {
+    font-size: 13px;
+    font-weight: lighter;
+    color: #868686;
+    margin-left: 15px;
+    margin-top: 0;
+    font-style: italic;
+    display: block;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, max-height 0.3s ease, margin-top 0.3s ease;
+}
+
+.work-section .text .maatrx-div p2.visible,
+.work-section .text .rx-assist-div p2.visible,
+.work-section .text .medme-div p2.visible,
+.work-section .text .med-tech-div p2.visible,
+.work-section .text .novartis-div p2.visible,
+.work-section .text .refoundation-div p2.visible,
+.work-section .text .sdm-div p2.visible,
+.projects-section .text .antibiotics-div p2.visible,
+.projects-section .text .shell-div p2.visible,
+.projects-section .text .marathon-div p2.visible {
+    opacity: 1;
+    max-height: 100px;
+    margin-top: 8px;
+    transform: translateY(0);
+    transition: opacity 0.6s ease, transform 0.6s ease, max-height 0.6s ease, margin-top 0.6s ease;
 }
