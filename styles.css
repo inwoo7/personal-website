@@ -512,6 +512,25 @@ a:hover {
     font-weight: bold;
 }
 
+.film-section .text .medme-offsite-div {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.film-section .text .medme-offsite-div p {
+    font-size: 14px;
+    font-weight: lighter;
+}
+.film-section .text .medme-offsite-div p1 {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #868686;
+}
+.film-section .text .medme-offsite-div img {
+    width: 150px;
+    border-radius: 5px;
+}
+
 .film-section .text .teen-troubles-div {
     margin-top: 15px;
     margin-left: 15px;
