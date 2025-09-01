@@ -531,6 +531,25 @@ a:hover {
     border-radius: 5px;
 }
 
+.film-section .text .time-to-run-div {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.film-section .text .time-to-run-div p {
+    font-size: 14px;
+    font-weight: lighter;
+}
+.film-section .text .time-to-run-div p1 {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #868686;
+}
+.film-section .text .time-to-run-div img {
+    width: 150px;
+    border-radius: 5px;
+}
+
 .film-section .text .teen-troubles-div {
     margin-top: 15px;
     margin-left: 15px;
