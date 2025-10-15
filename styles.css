@@ -47,7 +47,7 @@ a {
     justify-content: left;
     align-items: center;
     text-align: left;
-    padding: 30px 40px;
+    padding: 20px 40px;
     max-width: 600px;
 }
 
@@ -57,8 +57,8 @@ a {
     padding-bottom: 10px;
 }
 
-.hero-section .text p1 {
-    margin-top: 50px;
+.hero-section .text .meta {
+    margin-top: 12px;
     padding: 5px 0;
     font-size: 14px;
     color: #787878;
@@ -74,7 +74,7 @@ a {
     max-width: 600px;
 }
 
-.about-section .text p {
+.about-section .text > p {
     margin-bottom: 15px;
     font-weight: bold;
 }
@@ -157,30 +157,34 @@ a:hover {
     font-size: 16px;
 }
 
+/* Add vertical gap between multiple essays */
+.essay-section #essay-links > div + div { margin-top: 24px; }
+
 .essay-section .text .startup-learnings-div p {
     font-size: 14px;
     font-weight: lighter;
     margin-left: 15px;
 }
-.essay-section .text .startup-learnings-div p1 {
+.essay-section .text .startup-learnings-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
+    margin-top: 6px;
 }
 
 .essay-section .text .sirtuins-div p {
     font-size: 14px;
     font-weight: lighter;
-    margin-top: 15px;
     margin-left: 15px;
 }
 
-.essay-section .text .sirtuins-div p1 {
+.essay-section .text .sirtuins-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
+    margin-top: 6px;
 }
 
 /* SECTION 5: WORK EXPERIENCE */
@@ -193,9 +197,26 @@ a:hover {
     max-width: 600px;
 }
 
+/* Consistent grouping and spacing for Work Experience */
+.work-section .text > div + div { margin-top: 24px; }
+.work-section .text > div p { margin-top: 0; }
+.work-section .text > div p + p { margin-top: 6px; }
+
 .work-section .text .title {
     margin-bottom: 15px;
     font-weight: bold;
+}
+
+.work-section .text .medme-div p {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 15px;
+}
+.work-section .text .medme-div .meta {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #868686;
+    margin-left: 15px;
 }
 
 .work-section .text .maatrx-div p {
@@ -203,181 +224,75 @@ a:hover {
     font-weight: lighter;
     margin-left: 15px;
 }
-.work-section .text .maatrx-div p1 {
+.work-section .text .maatrx-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
-}
-.work-section .text .maatrx-div p2 {
-    font-size: 13px;
-    font-weight: lighter;
-    color: #868686;
-    margin-left: 15px;
-    margin-top: 8px;
-    font-style: italic;
-    display: block;
 }
 
 .work-section .text .rx-assist-div p {
     font-size: 14px;
     font-weight: lighter;
     margin-left: 15px;
-    margin-top: 15px;
 }
-.work-section .text .rx-assist-div p1 {
+.work-section .text .rx-assist-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
-}
-.work-section .text .rx-assist-div p2 {
-    font-size: 13px;
-    font-weight: lighter;
-    color: #868686;
-    margin-left: 15px;
-    margin-top: 8px;
-    font-style: italic;
-    display: block;
-}
-
-.work-section .text .medme-div p {
-    font-size: 14px;
-    font-weight: lighter;
-    margin-left: 15px;
-    margin-top: 15px;
-}
-.work-section .text .medme-div p1 {
-    font-size: 14px;
-    font-weight: lighter;
-    color: #868686;
-    margin-left: 15px;
-}
-.work-section .text .medme-div p2 {
-    font-size: 13px;
-    font-weight: lighter;
-    color: #868686;
-    margin-left: 15px;
-    margin-top: 8px;
-    font-style: italic;
-    display: block;
 }
 
 .work-section .text .med-tech-div p {
     font-size: 14px;
     font-weight: lighter;
     margin-left: 15px;
-    margin-top: 15px;
 }
-.work-section .text .med-tech-div p1 {
+.work-section .text .med-tech-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
-}
-.work-section .text .med-tech-div p2 {
-    font-size: 13px;
-    font-weight: lighter;
-    color: #868686;
-    margin-left: 15px;
-    margin-top: 8px;
-    font-style: italic;
-    display: block;
 }
 
 .work-section .text .novartis-div p {
     font-size: 14px;
     font-weight: lighter;
     margin-left: 15px;
-    margin-top: 15px;
 }
-.work-section .text .novartis-div p1 {
+.work-section .text .novartis-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
-}
-.work-section .text .novartis-div p2 {
-    font-size: 13px;
-    font-weight: lighter;
-    color: #868686;
-    margin-left: 15px;
-    margin-top: 8px;
-    font-style: italic;
-    display: block;
 }
 
 .work-section .text .refoundation-div p {
     font-size: 14px;
     font-weight: lighter;
     margin-left: 15px;
-    margin-top: 15px;
 }
-.work-section .text .refoundation-div p1 {
+.work-section .text .refoundation-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
-}
-.work-section .text .refoundation-div p2 {
-    font-size: 13px;
-    font-weight: lighter;
-    color: #868686;
-    margin-left: 15px;
-    margin-top: 8px;
-    font-style: italic;
-    display: block;
 }
 
 .work-section .text .sdm-div p {
     font-size: 14px;
     font-weight: lighter;
     margin-left: 15px;
-    margin-top: 15px;
 }
-.work-section .text .sdm-div p1 {
+.work-section .text .sdm-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
 }
-.work-section .text .sdm-div p2 {
-    font-size: 13px;
-    font-weight: lighter;
-    color: #868686;
-    margin-left: 15px;
-    margin-top: 8px;
-    font-style: italic;
-    display: block;
-}
 
 
-/* SECTION 6: EDUCATION */
-.education-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    gap: 40px;
-    max-width: 600px;
-}
-
-.education-section .text .title {
-    margin-bottom: 15px;
-    font-weight: bold;
-}
-
-.education-section .text .minerva-div p {
-    font-size: 14px;
-    font-weight: lighter;
-    margin-left: 15px;
-}
-.education-section .text .minerva-div p1 {
-    font-size: 14px;
-    font-weight: lighter;
-    color: #868686;
-    margin-left: 15px;
-}
+/* SECTION 6 removed: Education */
 
 /* SECTION 7: FEATURES */
 .features-section {
@@ -405,6 +320,7 @@ a:hover {
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
+    margin-top: 6px;
 }
 
 /* SECTION 8: SIDE PROJECTS */
@@ -422,6 +338,10 @@ a:hover {
     font-weight: bold;
 }
 
+.projects-section .text > div + div { margin-top: 24px; }
+.projects-section .text > div p { margin-top: 0; }
+.projects-section .text > div p + p { margin-top: 6px; }
+
 .projects-section .text .antibiotics-div {
     margin-top: 15px;
 }
@@ -431,13 +351,13 @@ a:hover {
     font-weight: lighter;
     margin-left: 15px;
 }
-.projects-section .text .antibiotics-div p1 {
+.projects-section .text .antibiotics-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
 }
-.projects-section .text .antibiotics-div p2 {
+.projects-section .text .antibiotics-div .description {
     font-size: 13px;
     font-weight: lighter;
     color: #868686;
@@ -457,13 +377,13 @@ a:hover {
     font-weight: lighter;
     margin-left: 15px;
 }
-.projects-section .text .shell-div p1 {
+.projects-section .text .shell-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
 }
-.projects-section .text .shell-div p2 {
+.projects-section .text .shell-div .description {
     font-size: 13px;
     font-weight: lighter;
     color: #868686;
@@ -481,13 +401,13 @@ a:hover {
     font-weight: lighter;
     margin-left: 15px;
 }
-.projects-section .text .marathon-div p1 {
+.projects-section .text .marathon-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
 }
-.projects-section .text .marathon-div p2 {
+.projects-section .text .marathon-div .description {
     font-size: 13px;
     font-weight: lighter;
     color: #868686;
@@ -521,10 +441,11 @@ a:hover {
     font-size: 14px;
     font-weight: lighter;
 }
-.film-section .text .medme-offsite-div p1 {
+.film-section .text .medme-offsite-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
+    margin-top: 6px;
 }
 .film-section .text .medme-offsite-div img {
     width: 150px;
@@ -540,10 +461,11 @@ a:hover {
     font-size: 14px;
     font-weight: lighter;
 }
-.film-section .text .time-to-run-div p1 {
+.film-section .text .time-to-run-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
+    margin-top: 6px;
 }
 .film-section .text .time-to-run-div img {
     width: 150px;
@@ -559,10 +481,11 @@ a:hover {
     font-size: 14px;
     font-weight: lighter;
 }
-.film-section .text .teen-troubles-div p1 {
+.film-section .text .teen-troubles-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
+    margin-top: 6px;
 }
 .film-section .text .teen-troubles-div img {
     width: 150px;
@@ -578,10 +501,11 @@ a:hover {
     font-size: 14px;
     font-weight: lighter;
 }
-.film-section .text .water-div p1 {
+.film-section .text .water-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
+    margin-top: 6px;
 }
 .film-section .text .water-div img {
     width: 150px;
@@ -597,10 +521,11 @@ a:hover {
     font-size: 14px;
     font-weight: lighter;
 }
-.film-section .text .wonder-div p1 {
+.film-section .text .wonder-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
+    margin-top: 6px;
 }
 .film-section .text .wonder-div img {
     width: 150px;
@@ -616,10 +541,11 @@ a:hover {
     font-size: 14px;
     font-weight: lighter;
 }
-.film-section .text .ghost-div p1 {
+.film-section .text .ghost-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
+    margin-top: 6px;
 }
 .film-section .text .ghost-div img {
     width: 150px;
@@ -635,10 +561,11 @@ a:hover {
     font-size: 14px;
     font-weight: lighter;
 }
-.film-section .text .lies-div p1 {
+.film-section .text .lies-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
+    margin-top: 6px;
 }
 .film-section .text .lies-div img {
     width: 150px;
@@ -660,12 +587,16 @@ a:hover {
     font-weight: bold;
 }
 
+.reading-section .text > div + div { margin-top: 24px; }
+.reading-section .text > div p { margin-top: 0; }
+.reading-section .text > div p + p { margin-top: 6px; }
+
 .reading-section .text .CM-div p {
     font-size: 14px;
     font-weight: lighter;
     margin-left: 15px;
 }
-.reading-section .text .CM-div p1 {
+.reading-section .text .CM-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
@@ -676,63 +607,63 @@ a:hover {
     font-size: 14px;
     font-weight: lighter;
     margin-left: 15px;
-    margin-top: 15px;
 }
-.reading-section .text .TLOHN-div p1 {
+.reading-section .text .TLOHN-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
+    margin-top: 6px;
 }
 
 .reading-section .text .guns-div p {
     font-size: 14px;
     font-weight: lighter;
-    margin-top: 15px;
     margin-left: 15px;
 }
-.reading-section .text .guns-div p1 {
+.reading-section .text .guns-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
+    margin-top: 6px;
 }
 
 .reading-section .text .courage-div p {
     font-size: 14px;
     font-weight: lighter;
-    margin-top: 15px;
     margin-left: 15px;
 }
-.reading-section .text .courage-div p1 {
+.reading-section .text .courage-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
+    margin-top: 6px;
 }
 .reading-section .text .lifespan-div p {
     font-size: 14px;
     font-weight: lighter;
-    margin-top: 15px;
     margin-left: 15px;
 }
-.reading-section .text .lifespan-div p1 {
+.reading-section .text .lifespan-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
+    margin-top: 6px;
 }
 .reading-section .text .no-human-div p {
     font-size: 14px;
     font-weight: lighter;
-    margin-top: 15px;
     margin-left: 15px;
 }
-.reading-section .text .no-human-div p1 {
+.reading-section .text .no-human-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
     margin-left: 15px;
+    margin-top: 6px;
 }
 
 .essay-section .text p {
@@ -773,16 +704,16 @@ html {
 }
 
 
-.work-section .text .maatrx-div p2,
-.work-section .text .rx-assist-div p2,
-.work-section .text .medme-div p2,
-.work-section .text .med-tech-div p2,
-.work-section .text .novartis-div p2,
-.work-section .text .refoundation-div p2,
-.work-section .text .sdm-div p2,
-.projects-section .text .antibiotics-div p2,
-.projects-section .text .shell-div p2,
-.projects-section .text .marathon-div p2 {
+.work-section .text .maatrx-div .description,
+.work-section .text .rx-assist-div .description,
+.work-section .text .medme-div .description,
+.work-section .text .med-tech-div .description,
+.work-section .text .novartis-div .description,
+.work-section .text .refoundation-div .description,
+.work-section .text .sdm-div .description,
+.projects-section .text .antibiotics-div .description,
+.projects-section .text .shell-div .description,
+.projects-section .text .marathon-div .description {
     font-size: 13px;
     font-weight: lighter;
     color: #868686;
@@ -797,18 +728,19 @@ html {
     transition: opacity 0.6s ease, transform 0.6s ease, max-height 0.6s ease, margin-top 0.6s ease;
 }
 
-.work-section .text .maatrx-div p2.visible,
-.work-section .text .rx-assist-div p2.visible,
-.work-section .text .medme-div p2.visible,
-.work-section .text .med-tech-div p2.visible,
-.work-section .text .novartis-div p2.visible,
-.work-section .text .refoundation-div p2.visible,
-.work-section .text .sdm-div p2.visible,
-.projects-section .text .antibiotics-div p2.visible,
-.projects-section .text .shell-div p2.visible,
-.projects-section .text .marathon-div p2.visible {
+.work-section .text .maatrx-div .description.visible,
+.work-section .text .rx-assist-div .description.visible,
+.work-section .text .medme-div .description.visible,
+.work-section .text .med-tech-div .description.visible,
+.work-section .text .novartis-div .description.visible,
+.work-section .text .refoundation-div .description.visible,
+.work-section .text .sdm-div .description.visible,
+.projects-section .text .antibiotics-div .description.visible,
+.projects-section .text .shell-div .description.visible,
+.projects-section .text .marathon-div .description.visible {
     opacity: 1;
     max-height: 100px;
     margin-top: 8px;
+    margin-bottom: 8px;
     transform: translateY(0);
 }
