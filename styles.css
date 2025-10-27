@@ -187,6 +187,20 @@ a:hover {
     margin-top: 6px;
 }
 
+/* New essay: Dropping out */
+.essay-section .text .dropping-out-div p {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 15px;
+}
+.essay-section .text .dropping-out-div .meta {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #868686;
+    margin-left: 15px;
+    margin-top: 6px;
+}
+
 /* SECTION 5: WORK EXPERIENCE */
 .work-section {
     display: flex;
