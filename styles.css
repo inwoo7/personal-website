@@ -671,6 +671,12 @@ a:hover {
     font-weight: lighter;
 }
 
+/* Essay section headings (h3) - slight emphasis */
+.essay-section .text h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
 html {
     scroll-behavior: smooth;
 }
