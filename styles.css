@@ -124,9 +124,21 @@ a {
     font-weight: lighter;
     font-size: 14px;
     margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 .contact-section .text .instagram-div p {
+    color: #000000;
+}
+
+.contact-section .text .linkedin-div {
+    font-weight: lighter;
+    margin-bottom: 0;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.contact-section .text .linkedin-div p {
     color: #000000;
 }
 
@@ -216,6 +228,11 @@ a:hover {
 .work-section .text > div p { margin-top: 0; }
 .work-section .text > div p + p { margin-top: 6px; }
 
+.work-section .text > .title + div { 
+    /* Reduce gap immediately under the section title to match other sections */
+    margin-top: 15px; 
+}
+
 .work-section .text .title {
     margin-bottom: 15px;
     font-weight: bold;
@@ -299,6 +316,18 @@ a:hover {
     margin-left: 15px;
 }
 .work-section .text .sdm-div .meta {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #868686;
+    margin-left: 15px;
+}
+
+.work-section .text .ef-div p {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 15px;
+}
+.work-section .text .ef-div .meta {
     font-size: 14px;
     font-weight: lighter;
     color: #868686;
@@ -730,6 +759,7 @@ html {
 .work-section .text .med-tech-div .description,
 .work-section .text .novartis-div .description,
 .work-section .text .refoundation-div .description,
+.work-section .text .ef-div .description,
 .work-section .text .sdm-div .description,
 .projects-section .text .antibiotics-div .description,
 .projects-section .text .shell-div .description,
@@ -754,6 +784,7 @@ html {
 .work-section .text .med-tech-div .description.visible,
 .work-section .text .novartis-div .description.visible,
 .work-section .text .refoundation-div .description.visible,
+.work-section .text .ef-div .description.visible,
 .work-section .text .sdm-div .description.visible,
 .projects-section .text .antibiotics-div .description.visible,
 .projects-section .text .shell-div .description.visible,
