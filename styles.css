@@ -353,17 +353,23 @@ a:hover {
     font-size: 16px;
 }
 
-.features-section .text .chn-div p {
-    font-size: 14px;
+.features-section .text .feature-div {
     font-weight: lighter;
+    margin-bottom: 15px;
+    font-size: 14px;
     margin-left: 15px;
 }
-.features-section .text .chn-div2 p {
-    font-size: 14px;
-    font-weight: lighter;
+
+.features-section .text .feature-div:last-child {
+    margin-bottom: 0;
+}
+
+.features-section .text .feature-div p {
+    color: #000000;
+}
+
+.features-section .text .feature-div .meta {
     color: #868686;
-    margin-left: 15px;
-    margin-top: 6px;
 }
 
 /* SECTION 8: SIDE PROJECTS */
